@@ -1,4 +1,5 @@
 # CurrencyConverter-Challenge-Alura
+
 ## Descripción
 Aplicación Java de consola para conversión de monedas que:
 - Obtiene tasas de cambio actualizadas desde una API
@@ -26,7 +27,7 @@ Aplicación Java de consola para conversión de monedas que:
 3. Ejecutar con:   
 Java -cp .:gson-2.8.6.jar Main
 
-Uso
+## Uso
 Al iniciar, la aplicación obtendrá automáticamente las tasas de cambio más recientes
 
 Menú principal:
@@ -39,16 +40,16 @@ Menú principal:
 
 4. Salir: Termina la aplicación
 
-##Ejemplo de uso
+Ejemplo de uso
 
-=== CONVERSOR DE MONEDAS ===
+## === CONVERSOR DE MONEDAS ===
 1. Ver monedas disponibles
 2. Realizar conversión
 3. Ver historial de conversiones
 4. Salir
 Seleccione una opción: 2
 
-=== REALIZAR CONVERSIÓN ===
+## === REALIZAR CONVERSIÓN ===
 Ingrese código de moneda origen (ej. USD): USD
 Ingrese código de moneda destino (ej. COP): COP
 Ingrese cantidad a convertir: 100
@@ -56,7 +57,7 @@ Ingrese cantidad a convertir: 100
 100.00 USD = 391200.00 COP
 Conversión guardada en el historial.
 
-Estructura del código
+## Estructura del código
 Main.java: Punto de entrada de la aplicación
 
 Menu.java: Maneja la interfaz de usuario y el historial
@@ -69,7 +70,7 @@ ApiClient.java: Cliente para la API de tasas de cambio
 
 ApiResponse.java: Modelo para respuesta de la API
 
-##Historial de conversiones
+## Historial de conversiones
 Cada conversión se guarda con:
 
 Fecha y hora exacta
@@ -80,7 +81,7 @@ Cantidad convertida
 
 Resultado de la conversión
 
-##Ejemplo de entrada de historial:
+## Ejemplo de entrada de historial:
 [2023-04-15 14:30:45] 100.00 USD → 391200.00 COP
 
 Limitaciones
@@ -90,11 +91,10 @@ Las tasas no se actualizan automáticamente durante la sesión
 
 Historial se pierde al cerrar la aplicación
 
-##Mejoras futuras
+Mejoras futuras
 Persistencia del historial en archivo
 
 Actualización periódica de tasas
 
 Gráficos de conversión histórica
-
-
+ 
