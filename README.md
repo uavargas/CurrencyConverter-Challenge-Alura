@@ -26,7 +26,7 @@ Aplicación Java de consola para conversión de monedas que:
 3. Ejecutar con:   
 Java -cp .:gson-2.8.6.jar Main
 
-##Uso
+Uso
 Al iniciar, la aplicación obtendrá automáticamente las tasas de cambio más recientes
 
 Menú principal:
@@ -48,7 +48,7 @@ Menú principal:
 4. Salir
 Seleccione una opción: 2
 
-##=== REALIZAR CONVERSIÓN ===
+=== REALIZAR CONVERSIÓN ===
 Ingrese código de moneda origen (ej. USD): USD
 Ingrese código de moneda destino (ej. COP): COP
 Ingrese cantidad a convertir: 100
@@ -56,7 +56,7 @@ Ingrese cantidad a convertir: 100
 100.00 USD = 391200.00 COP
 Conversión guardada en el historial.
 
-##Estructura del código
+Estructura del código
 Main.java: Punto de entrada de la aplicación
 
 Menu.java: Maneja la interfaz de usuario y el historial
@@ -83,7 +83,7 @@ Resultado de la conversión
 ##Ejemplo de entrada de historial:
 [2023-04-15 14:30:45] 100.00 USD → 391200.00 COP
 
-##Limitaciones
+Limitaciones
 Requiere conexión a Internet para la primera carga de tasas
 
 Las tasas no se actualizan automáticamente durante la sesión
